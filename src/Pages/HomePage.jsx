@@ -33,7 +33,7 @@ const HomePage = () => {
             الألعاب التعليمية
           </h3>
           <p className="text-gray-600">
-            انقر هنا للوصول إلى مجموعة الألعاب التعليمية الممتعة
+          العب بتعلّم! استمتع بتجربة تعليمية تفاعلية تمنح الطفل متعة التحدي وفرصة التطور
           </p>
         </div>
 
@@ -44,10 +44,10 @@ const HomePage = () => {
         >
           <FaBook className="text-4xl text-indigo-900 mx-auto mb-2" />
           <h3 className="text-xl font-semibold text-indigo-900 mb-1">
-            القصص التفاعلية
+            قصص ممتعة
           </h3>
           <p className="text-gray-600">
-            استمتع بمجموعة من القصص المصورة التفاعلية
+          'اكتشف مكتبة من القصص المسلية! حكايات تعليمية تثري الخيال وتنمي اللغة والقيم الجميلة.',
           </p>
         </div>
 
@@ -63,10 +63,10 @@ const HomePage = () => {
           >
             <FaPuzzlePiece className="text-4xl text-indigo-900 mx-auto mb-2" />
             <h3 className="text-xl font-semibold text-indigo-900 mb-1">
-              التحدي الذهنى
+              بازل العباقرة
             </h3>
             <p className="text-gray-600">
-              تمارين وألغاز لتنمية المهارات الذهنية
+            'أكمل الصور ثلاثية الأبعاد! ركّب قطع البازل المتناثرة لتشكيل لوحات مدهشة',
             </p>
           </div>
         </a>
@@ -76,8 +76,8 @@ const HomePage = () => {
           className="bg-white rounded-xl shadow-md p-4 hover:-translate-y-1 text-center cursor-pointer hover:bg-pink-50 transition"
         >
           <FaMusic className="text-4xl text-indigo-900 mx-auto mb-2" />
-          <h3 className="text-xl font-semibold text-indigo-900 mb-1">السمعيات</h3>
-          <p className="text-gray-500">مجموعة من الصوتيات التعليمية الممتعة</p>
+          <h3 className="text-xl font-semibold text-indigo-900 mb-1">التعلم بالأصوات</h3>
+          <p className="text-gray-500">"استمتع بمغامرات سمعية شيقة! قصص وأناشيد تعليمية تطور المهارات اللغوية بطرق مرحة وآمنة.,</p>
         </div>
       </div>
     </div>

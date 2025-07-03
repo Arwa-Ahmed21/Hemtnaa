@@ -68,12 +68,15 @@ const Stories = () => {
   };
 
   return (
-    <div className="bg-white min-h-screen p-4">
+    <div
+      dir="rtl"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-200 to-pink-200 p-5"
+    >
       <button
         onClick={handleBack}
         className="fixed top-5 left-5 bg-blue-900 text-white border-2 border-white px-6 py-2 rounded-full text-lg flex items-center gap-2 shadow-lg"
       >
-        <i className="fas fa-arrow-left"></i> Home
+        <i className="fas fa-arrow-left"></i> الصفحة الرئيسية
       </button>
 
       <div className="max-w-7xl mx-auto mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -84,8 +87,7 @@ const Stories = () => {
               alt={story.title}
               className="w-full h-56 object-cover rounded-xl shadow-md"
             />
-            <div className="absolute top-3 left-3 bg-pink-500 w-8 h-8 rounded-full flex items-center justify-center cursor-pointer">
-              <i className="fa-solid fa-heart text-white text-sm"></i>
+            <div className="absolute top-3 left-3  w-8 h-8 rounded-full flex items-center justify-center cursor-pointer">
             </div>
             <div className="absolute inset-0 bg-indigo-900 bg-opacity-90 rounded-xl opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col items-center justify-center text-center p-4">
               <h3 className="text-white text-xl mb-2 border-b border-white pb-1">
@@ -93,7 +95,7 @@ const Stories = () => {
               </h3>
               <p className="text-gray-200 mb-4">{story.desc}</p>
               <a href={story.video} target="_blank" rel="noreferrer">
-                <i className="fa-solid fa-play text-blue-300 text-2xl"></i>
+                <i className="fa-solid fa-play text-blue-200 text-2xl"></i>
               </a>
             </div>
           </div>

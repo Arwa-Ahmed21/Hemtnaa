@@ -33,10 +33,9 @@ export default function Games() {
             className="bg-blue-100 rounded-lg shadow-md p-5 text-center cursor-pointer hover:bg-blue-200 transition"
           >
             <i className="fas fa-gamepad text-3xl mb-4 text-blue-700"></i>
-            <h3 className="text-xl font-semibold mb-2">لعبه الذاكره</h3>
+            <h3 className="text-xl font-semibold mb-2">ذاكرة حديدية</h3>
             <p className="text-gray-700 text-sm">
-              انقر هنا للوصول إلى اللعبه نبذه عن لعبه الذاكره انها لعبه تساعد
-              وتحسن من ملاحظه الطفل وتقوى الذاكره
+            ختبر ذاكرتك مع لعبة المطابقة! اقلب البطاقات وطابق الصور لتحقيق أعلى النقاط.
             </p>
           </div>
 
@@ -45,10 +44,9 @@ export default function Games() {
             className="bg-green-100 rounded-lg shadow-md p-5 text-center cursor-pointer hover:bg-green-200 transition"
           >
             <i className="fas fa-book text-3xl mb-4 text-green-700"></i>
-            <h3 className="text-xl font-semibold mb-2">لعبة الأشكال المتطابقة </h3>
+            <h3 className="text-xl font-semibold mb-2">الأشكال المتطابقة</h3>
             <p className="text-gray-700 text-sm">
-              انقر هنا للوصول إلى اللعبه نبذه عن لعبه الذكاء انها لعبه تساعد
-              وتحسن التفكير عند الطفل وتقوى الملاحظه والعقل
+            'اختبر ذاكرتك مع لعبة المطابقة! اقلب البطاقات وطابق الصور لتحقيق أعلى النقاط',
             </p>
           </div>
 
@@ -57,10 +55,9 @@ export default function Games() {
             className="bg-yellow-100 rounded-lg shadow-md p-5 text-center cursor-pointer hover:bg-yellow-200 transition"
           >
             <i className="fas fa-puzzle-piece text-3xl mb-4 text-yellow-700"></i>
-            <h3 className="text-xl font-semibold mb-2">لعبة الالغاز</h3>
+            <h3 className="text-xl font-semibold mb-2">تحدي الألغاز</h3>
             <p className="text-gray-700 text-sm">
-              انقر هنا للوصول إلى اللعبة نبذة عن لعبة الألغاز إنها لعبة تقوي
-              الملاحظة وتقوي التفكير عند الطفل وتختبر معلومات الطفل
+            تحدى نفسك بألغاز ممتعة! أسئلة منطقية ورياضية لتنشيط العقل والتفكير
             </p>
           </div>
         </div>
