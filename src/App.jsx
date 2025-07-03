@@ -72,10 +72,10 @@ function AppWrapper() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Hemtnaa/">
       <AppWrapper />
     </Router>
   );
-}
 
+}
 export default App;
